@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/qifengzhang007/gooxml/common"
-	"github.com/qifengzhang007/gooxml/document"
-	"github.com/qifengzhang007/gooxml/measurement"
+	"github.com/928799934/gooxml/common"
+	"github.com/928799934/gooxml/document"
+	"github.com/928799934/gooxml/measurement"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/928799934/gooxml/schema/soo/wml"
 )
 
 var lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis, lectus dictum feugiat tempus, sem neque finibus enim, sed eleifend sem nunc ac diam. Vestibulum tempus sagittis elementum`

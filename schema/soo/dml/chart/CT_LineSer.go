@@ -13,8 +13,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/dml"
 )
 
 type CT_LineSer struct {

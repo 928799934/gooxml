@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/pml"
+	"github.com/928799934/gooxml/schema/soo/pml"
 )
 
 func TestCT_EmbeddedFontListEntryConstructor(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
+	"github.com/928799934/gooxml"
 )
 
 type OfcCT_EquationXml struct {

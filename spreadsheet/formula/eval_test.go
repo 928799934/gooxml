@@ -14,8 +14,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/spreadsheet"
-	"github.com/qifengzhang007/gooxml/spreadsheet/formula"
+	"github.com/928799934/gooxml/spreadsheet"
+	"github.com/928799934/gooxml/spreadsheet/formula"
 )
 
 func TestEval(t *testing.T) {

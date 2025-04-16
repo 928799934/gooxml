@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/dml/chart"
+	"github.com/928799934/gooxml/schema/soo/dml/chart"
 )
 
 func TestCT_StrRefConstructor(t *testing.T) {

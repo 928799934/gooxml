@@ -12,8 +12,8 @@ package excel
 import (
 	"encoding/xml"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/ofc/sharedTypes"
 )
 
 type ClientData struct {

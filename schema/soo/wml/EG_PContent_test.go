@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/928799934/gooxml/schema/soo/wml"
 )
 
 func TestEG_PContentConstructor(t *testing.T) {

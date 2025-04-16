@@ -21,14 +21,14 @@ import (
 	"path"
 	"strings"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/common"
-	"github.com/qifengzhang007/gooxml/measurement"
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/sharedTypes"
-	"github.com/qifengzhang007/gooxml/schema/soo/pkg/relationships"
-	"github.com/qifengzhang007/gooxml/schema/soo/pml"
-	"github.com/qifengzhang007/gooxml/zippkg"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/common"
+	"github.com/928799934/gooxml/measurement"
+	"github.com/928799934/gooxml/schema/soo/dml"
+	"github.com/928799934/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/928799934/gooxml/schema/soo/pkg/relationships"
+	"github.com/928799934/gooxml/schema/soo/pml"
+	"github.com/928799934/gooxml/zippkg"
 )
 
 // Presentation is the a presentation base document.

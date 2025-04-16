@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/928799934/gooxml/schema/urn/schemas_microsoft_com/office/word"
 )
 
 func TestBorderbottomConstructor(t *testing.T) {

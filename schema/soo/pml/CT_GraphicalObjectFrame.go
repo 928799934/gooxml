@@ -12,8 +12,8 @@ package pml
 import (
 	"encoding/xml"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/dml"
 )
 
 type CT_GraphicalObjectFrame struct {

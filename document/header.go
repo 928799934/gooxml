@@ -11,9 +11,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/common"
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/common"
+	"github.com/928799934/gooxml/schema/soo/wml"
 )
 
 // Header is a header for a document section.

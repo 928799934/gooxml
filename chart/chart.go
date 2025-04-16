@@ -10,12 +10,12 @@ package chart
 import (
 	"math/rand"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/color"
-	"github.com/qifengzhang007/gooxml/drawing"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/color"
+	"github.com/928799934/gooxml/drawing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
-	crt "github.com/qifengzhang007/gooxml/schema/soo/dml/chart"
+	"github.com/928799934/gooxml/schema/soo/dml"
+	crt "github.com/928799934/gooxml/schema/soo/dml/chart"
 )
 
 // Chart is a generic chart.

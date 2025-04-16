@@ -13,8 +13,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/math"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/ofc/math"
 )
 
 type CT_DirContentRun struct {

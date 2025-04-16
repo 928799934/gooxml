@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/qifengzhang007/gooxml/color"
-	"github.com/qifengzhang007/gooxml/document"
-	"github.com/qifengzhang007/gooxml/measurement"
+	"github.com/928799934/gooxml/color"
+	"github.com/928799934/gooxml/document"
+	"github.com/928799934/gooxml/measurement"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/928799934/gooxml/schema/soo/wml"
 )
 
 func main() {

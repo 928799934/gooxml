@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/ofc/sharedTypes"
 )
 
 type CT_Stroke struct {

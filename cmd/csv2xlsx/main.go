@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qifengzhang007/gooxml/spreadsheet"
-	"github.com/qifengzhang007/gooxml/spreadsheet/format"
+	"github.com/928799934/gooxml/spreadsheet"
+	"github.com/928799934/gooxml/spreadsheet/format"
 )
 
 func main() {

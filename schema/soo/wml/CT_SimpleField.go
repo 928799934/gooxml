@@ -13,9 +13,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/math"
-	"github.com/qifengzhang007/gooxml/schema/soo/ofc/sharedTypes"
+	"github.com/928799934/gooxml"
+	"github.com/928799934/gooxml/schema/soo/ofc/math"
+	"github.com/928799934/gooxml/schema/soo/ofc/sharedTypes"
 )
 
 type CT_SimpleField struct {

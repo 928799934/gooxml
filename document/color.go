@@ -10,8 +10,8 @@ package document
 import (
 	"fmt"
 
-	"github.com/qifengzhang007/gooxml/color"
-	"github.com/qifengzhang007/gooxml/schema/soo/wml"
+	"github.com/928799934/gooxml/color"
+	"github.com/928799934/gooxml/schema/soo/wml"
 )
 
 // Color controls the run or styles color.

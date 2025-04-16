@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/qifengzhang007/gooxml/schema/soo/dml"
+	"github.com/928799934/gooxml/schema/soo/dml"
 )
 
 func TestCT_RatioConstructor(t *testing.T) {
