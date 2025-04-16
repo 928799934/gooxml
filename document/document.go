@@ -305,13 +305,13 @@ func (d *Document) insertTable(relativeTo Paragraph, before bool) Table {
 						copy(d.x.Body.EG_BlockLevelElts[i+1:], d.x.Body.EG_BlockLevelElts[i:])
 						d.x.Body.EG_BlockLevelElts[i] = elts
 						if j != 0 {
-							elts := wml.NewEG_BlockLevelElts()
+							elts1 := wml.NewEG_BlockLevelElts()
 							cbc := wml.NewEG_ContentBlockContent()
-							elts.EG_ContentBlockContent = append(elts.EG_ContentBlockContent, cbc)
+							elts1.EG_ContentBlockContent = append(elts1.EG_ContentBlockContent, cbc)
 							cbc.P = c.P[:j]
 							d.x.Body.EG_BlockLevelElts = append(d.x.Body.EG_BlockLevelElts, nil)
 							copy(d.x.Body.EG_BlockLevelElts[i+1:], d.x.Body.EG_BlockLevelElts[i:])
-							d.x.Body.EG_BlockLevelElts[i] = elts
+							d.x.Body.EG_BlockLevelElts[i] = elts1
 						}
 						c.P = c.P[j:]
 					} else {

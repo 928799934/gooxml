@@ -253,9 +253,9 @@ func (p Paragraph) SetNumberingDefinitionByID(abstractNumberID int64) {
 }
 
 // JudgeParagraphType  judge current Paragraph type
-func (p Paragraph) JudgeParagraphType(paragraph Paragraph) (pType ParagraphType) {
+func (p Paragraph) JudgeParagraphType() (pType ParagraphType) {
 
-	if p.GetAllParagraphText(paragraph) != "" {
+	if p.GetAllParagraphText() != "" {
 		pType++
 	}
 
@@ -284,9 +284,15 @@ func (p Paragraph) JudgeParagraphType(paragraph Paragraph) (pType ParagraphType)
 }
 
 // GetAllParagraphText
-func (p Paragraph) GetAllParagraphText(paragraph Paragraph) (text string) {
-	for _, item := range paragraph.Runs() {
+func (p Paragraph) GetAllParagraphText() (text string) {
+	for _, item := range p.Runs() {
 		text += item.Text()
 	}
 	return
+}
+
+func (p Paragraph) RemoveRuns() {
+	for _, run := range p.Runs() {
+		p.RemoveRun(run)
+	}
 }
