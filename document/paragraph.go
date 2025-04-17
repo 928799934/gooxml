@@ -255,7 +255,7 @@ func (p Paragraph) SetNumberingDefinitionByID(abstractNumberID int64) {
 // JudgeParagraphType  judge current Paragraph type
 func (p Paragraph) JudgeParagraphType() (pType ParagraphType) {
 
-	if p.GetAllParagraphText() != "" {
+	if p.Text() != "" {
 		pType++
 	}
 
@@ -283,8 +283,8 @@ func (p Paragraph) JudgeParagraphType() (pType ParagraphType) {
 	return pType
 }
 
-// GetAllParagraphText
-func (p Paragraph) GetAllParagraphText() (text string) {
+// Text
+func (p Paragraph) Text() (text string) {
 	for _, item := range p.Runs() {
 		text += item.Text()
 	}
